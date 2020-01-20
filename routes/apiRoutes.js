@@ -1,21 +1,7 @@
-var mysql = require("mysql");
-
-var connection = mysql.createConnection({
-    host : "localhost",
-    PORT : 3306,
-    user : "root",
-    password: "Adiam5312.",
-    database: "burgers_db"
-})
-connection.connect(function(err){
-    if (err){
-        console.log(err);
-    }
-    console.log("connection id:", connection.threadId)
-})
 
 
 
+// Testing out functionality because controller was not working/code no longer needed.
 function apiRoutes(app){
     app.get("/", function(req, res){
         connection.query("Select * From burgers", function(err, results){

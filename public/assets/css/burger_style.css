@@ -1,3 +1,14 @@
-body{
-    color: red;
+
+
+img {
+	width: 250px;
+}
+
+body {
+    margin-bottom: 45px;
+}
+
+.card-header {
+    background-color: #00970C;
+    color: #fff;
 }

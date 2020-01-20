@@ -16,6 +16,8 @@ app.use(express.json())
 
 app.use(express.static("public"));
 
+// Hard coded to test routes since controller was not working
+
 // var apiRoutes = require("./routes/apiRoutes");
 // apiRoutes(app)
 
