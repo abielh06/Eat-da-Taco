@@ -1,11 +1,13 @@
 var mysql = require("mysql");
 
+
+
 var connection = mysql.createConnection({
-  host: "yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  host: "",
   port: 3306,
-  user: "yiak66221blxmgb4",
-  password: "gka2dr518i5i8a4b",
-  database: "qot7z5rk6xate887"
+  user: "",
+  password: "",
+  database: ""
 });
 
 // Make connection.
@@ -19,3 +21,4 @@ connection.connect(function(err) {
 
 // Export connection for our ORM to use.
 module.exports = connection;
+
